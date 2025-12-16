@@ -1410,15 +1410,14 @@ Systems below are ordered by **publication date**:
 
 ### 🎥 Multi-media resource
 
-| Paper / System | Website Link |
+| Type | Website Link |
 |---------------|--------------|
-| **MemOS** | https://www.youtube.com/watch?v=R3v0fnqC5H8<br>https://www.bilibili.com/video/BV1PBuyzBENt |
-| **mem0** | https://www.youtube.com/watch?v=jbc-N4_D-k0 |
-| **A-mem** | https://www.youtube.com/watch?v=49ERSQeHC-Y<br>https://www.youtube.com/watch?v=ZYz_UpjEut8 |
-| **zep** | https://www.youtube.com/watch?v=kNsX2qu8jHY |
-| **Letta** | https://www.youtube.com/watch?v=MK3H_Y-l4QU |
-| **memobase** | https://www.youtube.com/watch?v=HNGhjojsCpQ |
-
+| **LLM** | https://www.bilibili.com/video/BV1a6j1z6En9<br>https://www.youtube.com/watch?v=LdFou-SXB00<br>https://www.bilibili.com/video/BV1JWy3BkEU4 |
+| **LLM Memory** | https://www.youtube.com/watch?v=-sRvcGURDbQ<br>https://www.youtube.com/watch?v=LdFou-SXB00<br>https://www.bilibili.com/video/BV1RBbUzQEFr |
+| **Memory Concept** | https://www.youtube.com/watch?v=UF230UuclZM |
+| **Base Model** | https://www.youtube.com/watch?v=yMWaHnMduzQ<br>https://www.bilibili.com/video/BV1Aw5Vz8EFS<br> https://www.bilibili.com/video/BV1NGf2YtE8r |
+| **Multi-Model LLM** | https://www.bilibili.com/video/BV1sMEyzhEM3<br>https://www.bilibili.com/video/BV1RsBGYZEs4|
+| **AI Agent** | https://www.bilibili.com/video/BV1aaxyz8ELY<br>https://www.bilibili.com/video/BV1SnmMBoEDP |
 
 
 ## 🤝  Make a Contribution
