@@ -110,21 +110,21 @@ To systematically organize the diverse research and practical resources in the f
 ---
 
 🗺️ Table of Contents
-- [Introduction](#introduction)
-- [Goal of Repository](#goal-of-repository)
-- [Project Scope](#project-scope)
-- [News](#news)
-- [Introduction of Core Concept](#introduction-of-core-concept)
-- [Paper List](#paper-list)
-  - [Survey](#survey)
-  - [Framework & Methods](#framework--methods)
-  - [Benchmark & Datasets](#benchmark--datasets)
-  - [Memory Evaluation](#memory-evaluation)
-  - [System & model](#system--model)
-- [Resource](#resource)
-  - [Benchmarks and tasks](#benchmarks-and-tasks)
-  - [Systems and open sources](#systems-and-open-sources)
-  - [Star Trends](#star-trends)
+- [Introduction](#-introduction)
+- [Goal of Repository](#-goal-of-repository)
+- [Project Scope](#-project-scope)
+- [News](#-news)
+- [Introduction of Core Concept](#-introduction-of-core-concept)
+- [Paper List](#-paper-list)
+  - [Survey](#-survey)
+  - [Framework & Methods](#-framework--methods)
+  - [Benchmark & Datasets](#-benchmark--datasets)
+  - [Memory Evaluation](#-memory-evaluation)
+  - [System & model](#-system--model)
+- [Resource](#-resource)
+  - [Benchmarks and tasks](#-benchmarks-and-tasks)
+  - [Systems and open sources](#-systems-and-open-sources)
+  - [Star Trends](#-star-trends)
 
 ---
 
