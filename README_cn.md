@@ -2729,81 +2729,81 @@ To systematically organize the diverse research and practical resources in the f
     <tr>
       <td rowspan="5"><strong>记忆基本理论</strong></td>
       <td>https://www.youtube.com/watch?v=k3FUWWEwgfc</td>
-      <td>Short-Term Memory with LangGraph</td>
+      <td>基于LangGraph的短期记忆</td>
     </tr>
     <tr>
       <td>https://www.youtube.com/watch?v=fsENEq4F55Q</td>
-      <td>Long-Term Memory with LangGraph</td>
+      <td>基于LangGraph的长期记忆</td>
     </tr>
     <tr>
       <td>https://www.youtube.com/watch?v=L-au0tvDJbI</td>
-      <td>LLMs Do Not Have Human-Like Working Memories</td>
+      <td>llm不具备类似人类的工作记忆</td>
     </tr>
     <tr>
       <td>https://www.youtube.com/watch?v=RkWor1BZOn0</td>
-      <td> long-term memory and personalization for LLM applications</td>
+      <td> LLM进行长期记忆和个性化</td>
     </tr>
     <tr>
       <td>https://www.youtube.com/watch?v=CFih0_6tn2w</td>
-      <td>A Paradigm Shift to Memory as a First Class Citizen for LLMs</td>
+      <td>范式转变：将记忆作为大语言模型的一等任务</td>
     </tr>
     <tr>
       <td rowspan="4"><strong>记忆相关工具</strong></td>
       <td>https://www.bilibili.com/video/BV1hom8YAEhX</td>
-      <td>LLMs as Operating Systems: Agent Memory</td>
+      <td>记忆Agent</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV1CU421o7DL</td>
-      <td>Langchain Agent with memory</td>
+      <td>基于Langchain的记忆agent</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV1arJazVEaX</td>
-      <td>Open Memory MCP</td>
+      <td>开启记忆MCP</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV11HxXzuExk</td>
-      <td> Agentic Memory for LLM Agents</td>
+      <td>大模型Agent记忆</td>
     </tr>
     <tr>
       <td rowspan="10"><strong>记忆相关论文</strong></td>
       <td>https://www.bilibili.com/video/BV1XT8ez6E46</td>
-      <td>AI agent Survey Memory</td>
+      <td>AI agent记忆综述</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV1f12wBpEXX</td>
-      <td>MemGen: Weaving Generative Latent Memory for Self-Evolving Agents</td>
+      <td>MemGen：为自进化智能体组织生成潜在记忆</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV1deyFBKEFh</td>
-      <td>MLP Memory: A Retriever-Pretrained Memory for Large Language Models</td>
+      <td>大型语言模型的检索器预训练记忆</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV18FnVzpE6S</td>
-      <td>How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior</td>
+      <td>记忆管理经验跟随行为的实证研究</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV1mpbrzSEH9</td>
-      <td>Agent Workflow Memory</td>
+      <td>Agent记忆工作流</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV1qEtozyEoh</td>
-      <td>Introduction to the Memory Mechanism of Large Language Model Agents</td>
+      <td>大型语言模型智能体记忆机制简介</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV1FGrhYhEZK</td>
-      <td>Memory Layers at Scale</td>
+      <td>记忆层大规模扩展</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV1aQ1xBkE45</td>
-      <td>Agentic Memory for LLM Agents</td>
+      <td>LLM agent记忆</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV1Yz421f7uH</td>
-      <td>Evaluating Very Long-Term Conversational Memory of LLM Agents</td>
+      <td>评估LLM智能体的非常长期的会话记忆</td>
     </tr>
     <tr>
       <td>https://www.bilibili.com/video/BV19RWdzxEsR</td>
-      <td>Lightweight plug-in memory system</td>
+      <td>轻量级插件式记忆系统</td>
     </tr>
   </tbody>
 </table>
