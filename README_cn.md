@@ -2101,9 +2101,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • EM-LLM (Event Memory Large Language Model) is a novel large language model designed to address the limitations of existing models in handling long contexts.<br>
-        • EM-LLM achieves near-unlimited context processing without fine-tuning, delivering significant improvements over existing models across multiple benchmarks.<br>
-        • The model integrates surprise-based event segmentation, graph-theoretic boundary refinement, and a two-stage memory retrieval mechanism, substantially enhancing performance on information retrieval and question-answering tasks.
+        • EM-LLM（事件记忆大语言模型）是一种新型大语言模型，旨在解决现有模型在长文本处理中的局限性。<br>
+        • EM-LLM 无需微调即可实现近乎无限的上下文处理能力，在多个基准测试中显著优于现有模型。<br>
+        • 该模型整合了基于突发性事件分割、图论边界优化和两阶段记忆检索机制，显著提升信息检索与问答任务的性能。
       </td>
     </tr>
     <tr>
@@ -2117,10 +2117,10 @@ To systematically organize the diverse research and practical resources in the f
       </a></td>
     </tr>
     <tr>
-      <td colspan="3">
-        • MiniLongBench is a low-cost long-text understanding benchmark designed to improve the efficiency and affordability of evaluating large language models (LLMs) on long-context understanding (LCU).<br>
-        • By applying data compression techniques, MiniLongBench significantly reduces the number of evaluation samples while maintaining evaluation consistency, and shows a high correlation with results from the original LongBench benchmark.<br>
-        • Evaluations across multiple task categories demonstrate MiniLongBench’s effectiveness, although further improvements are still needed for summarization and synthesis tasks.
+      <td colspan="3">        
+        • MiniLongBench是一个低成本的长文本理解基准，旨在提升大语言模型（LLMs）在长上下文理解（LCU）任务中的评估效率与经济可行性。<br>
+        • 通过应用数据压缩技术，MiniLongBench在保持评估结果一致性的前提下显著减少评估样本数量，并显示出与原始LongBench基准高度相关的结果。<br>
+        • 多任务类别的评估验证了MiniLongBench的有效性，尽管在总结生成和信息综合类任务上仍需进一步优化。
       </td>
     </tr>
     <tr>
@@ -2138,9 +2138,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • The Agentic Long-Context Understanding (AgenticLU) framework is designed to enhance large language models (LLMs) in long-text understanding and reasoning.<br>
-        • AgenticLU introduces a Chain-of-Clarifications (CoC) mechanism that optimizes the model’s self-clarification process and employs tree-structured search paths to generate clarification questions, thereby significantly improving the accuracy and effectiveness of multi-step reasoning.<br>
-        • Evaluation results show that the framework outperforms existing prompting techniques on long-context question answering, while keeping computational overhead well controlled.
+        • AgenticLU框架（智能代理长上下文理解框架）旨在增强大语言模型（LLMs）在长文本理解与推理任务中的表现。<br>
+        • 该框架提出澄清链机制（Chain-of-Clarifications, CoC），通过优化模型自我澄清过程并采用树状搜索路径生成澄清性问题，从而显著提升多步骤推理的准确率与有效性。<br>
+        • 验证结果表明，该框架在长上下文问答任务中优于现有提示技术，同时将计算开销控制在合理范围内。
       </td>
     </tr>
     <tr>
@@ -2160,9 +2160,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • The paper investigates the challenges LLM-powered embodied agents face in personalized assistance, specifically focusing on memory utilization for object semantics and user behavioral patterns.<br>
-        • It introduces MEMENTO, a two-stage evaluation framework, which reveals that current agents struggle with sequential user patterns and coordinating multiple memories due to information overload.<br>
-        • The study proposes a hierarchical knowledge graph-based user-profile memory module that separates personalized knowledge from episodic history, achieving substantial improvements in both single and joint-memory tasks.
+        • 本文研究了大语言模型驱动的具身智能体在个性化辅助任务中面临的挑战，特别聚焦于物体语义记忆与用户行为模式的记忆利用问题。<br>
+        • 研究提出MEMENTO（记忆评估框架），通过两阶段评估揭示当前智能体在处理连续用户行为模式及多记忆协同时存在困难，其根本原因在于信息过载问题。<br>
+        • 该工作设计了基于分层知识图谱的用户画像记忆模块，通过分离个性化知识与情景记忆历史，在单一记忆任务和联合记忆任务中均取得显著性能提升。
       </td>
     </tr>
     <tr>
@@ -2177,9 +2177,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • SCBENCH (Shared Context BENCH) is a benchmark specifically designed to evaluate long-context large language models (LLMs).<br>
-        • SCBENCH focuses on the lifecycle of key–value (KV) caches, covering generation, compression, retrieval, and loading, and aims to fill a gap in existing benchmarks regarding KV cache evaluation in multi-turn interactions.<br>
-        • Experimental results reveal substantial differences across methods on different tasks, and show that dynamic sparse attention and cache optimization strategies deliver superior performance in complex scenarios.
+        • SCBENCH（共享上下文基准）是一个专为评估长上下文大语言模型（LLMs）设计的基准测试框架。<br>
+        • 该基准聚焦于键值缓存（KV缓存）的生命周期管理，涵盖生成、压缩、检索与加载等核心环节，旨在填补现有基准在多轮交互场景下KV缓存评估方面的空白。<br>
+        • 实验结果表明，不同方法在任务中展现出显著性能差异，其中动态稀疏注意力机制与缓存优化策略在复杂场景中表现出更优性能。
       </td>
     </tr>
     <tr>
@@ -2194,9 +2194,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • Explores the importance of episodic memory in large language models (LLMs) and proposes the construction of new benchmarks to evaluate models’ reasoning capabilities.<br>
-        • The authors develop a comprehensive framework with newly designed tasks and evaluation protocols, emphasizing the need for novel training strategies to effectively integrate episodic memory.<br>
-        • The framework provides a promising solution for evaluating episodic memory in LLMs.
+        • 探讨情景记忆在大语言模型（LLMs）中的重要性，并提出构建新型基准测试框架以评估模型推理能力。<br>
+        • 研究人员开发了包含全新设计任务与评估协议的综合性框架，强调需要创新训练策略以有效融合情景记忆机制。<br>
+        • 该框架为评估大语言模型中的情景记忆提供了一种可行的技术路径。
       </td>
     </tr>
     <tr>
@@ -2213,9 +2213,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • LongBench v2 is a multi-task benchmark for evaluating large language models (LLMs) in long-context understanding and reasoning.<br>
-        • It consists of 503 multiple-choice questions spanning diverse task types, with a focus on comprehending and answering long-form text.<br>
-        • The study finds that the best-performing models surpass human experts in long-context tasks, highlighting the importance of enhanced reasoning and increased test-time computation.
+        • LongBench v2（长文本理解与推理基准测试）是一个用于评估大语言模型在长上下文任务中表现的多任务基准测试框架。<br>
+        • 该框架包含503道涵盖多种任务类型的多项选择题，重点评估模型对长文本的理解与回答能力。<br>
+        • 研究发现表现最佳的模型在长上下文任务中已超越人类专家，凸显了增强推理能力与提升推理时计算资源的重要性。
       </td>
     </tr>
     <tr>
@@ -2232,9 +2232,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • MADial-Bench is a benchmark for evaluating memory-augmented dialogue generation, targeting the limitations of current dialogue systems in long-term memory.<br>
-        • MADial-Bench incorporates concepts from cognitive science to assess memory retrieval and recognition, and introduces multi-dimensional evaluation metrics.<br>
-        • The study shows that while large language models (LLMs) perform well in emotional support, their memory recognition and injection capabilities still require improvement.
+        • MADial-Bench（记忆增强型对话生成基准测试）旨在评估对话系统在长期记忆能力上的局限性。<br>
+        • 该基准测试融合认知科学理论，通过记忆检索与识别能力评估框架，并引入多维度评估指标。<br>
+        • 研究表明，尽管大语言模型在情感支持任务中表现优异，但其记忆识别与注入能力仍需提升。
       </td>
     </tr>
     <tr>
@@ -2251,9 +2251,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • L-CiteEval is a multi-task evaluation benchmark for long-context models (LCMs), designed to measure their abilities in understanding and citation.<br>
-        • The benchmark covers 11 tasks, supports context lengths ranging from 8K to 48K, and provides a comprehensive evaluation framework.<br>
-        • The study shows that closed-source models outperform open-source models in citation quality and generation accuracy, while retrieval-augmented generation (RAG) techniques effectively improve citation quality.
+        • L-CiteEval（长上下文模型理解与引用评估基准）是一个面向长上下文模型的多任务评估基准测试，旨在评估其在理解和引用方面的能力。<br>
+        • 该基准测试涵盖11项任务，支持从8K至48K的上下文长度，并提供了综合性评估框架。<br>
+        • 研究表明，闭源模型在引用质量和生成准确性上优于开源模型，而检索增强生成（RAG）技术能显著提升引用质量。
       </td>
     </tr>
     <tr>
@@ -2268,9 +2268,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • Explores the capabilities and limitations of large language models (LLMs) in long-text processing, and introduces the GLE benchmark for evaluating LLMs’ performance in long-context understanding.<br>
-        • The paper describes the construction process and evaluation criteria of long-dependency question-answering tasks, and compares the performance of different models.<br>
-        • Experimental results show that the GLE benchmark effectively assesses LLMs’ ability to process long-form text.
+        • 探讨大语言模型在长文本处理中的能力与局限性，并提出GLE（长文本理解评估）基准测试以评估其在长上下文理解中的表现。<br>
+        • 论文阐述了长依赖问答任务的构建过程与评估标准，并对比了不同模型的性能。<br>
+        • 实验结果表明，GLE基准测试能够有效评估大语言模型对长文本的处理能力。
       </td>
     </tr>
     <tr>
@@ -2286,9 +2286,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • LongBench is a bilingual, multi-task benchmark designed to evaluate large language models (LLMs) on long-context understanding.<br>
-        • The benchmark comprises 21 datasets spanning six task categories: single-document QA, multi-document QA, summarization, few-shot learning, synthetic tasks, and code completion, with an average length of 6,711 words and 13,386 characters.<br>
-        • Experimental results show that commercial models (e.g., GPT-3.5-Turbo-16k) generally outperform open-source models on long-context tasks.
+        • LongBench（长文本理解基准测试）是一个面向大语言模型的双语多任务基准测试框架，旨在评估其长上下文理解能力。<br>
+        • 该基准测试包含21个涵盖六类任务的数据集：单文档问答、多文档问答、摘要生成、少样本学习、合成任务和代码补全，平均文本长度达6,711单词（13,386字符）。<br>
+        • 实验结果表明，商业模型（如GPT-3.5-Turbo-16k）在长上下文任务中普遍优于开源模型。
       </td>
     </tr>
     <tr>
@@ -2302,9 +2302,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
       <td colspan="3">
-        • HOMER (Hierarchical cOntext MERging) is an algorithm designed to address the limitations of large language models (LLMs) in handling long contexts.<br>
-        • By splitting long inputs into smaller chunks and hierarchically merging them, HOMER improves both memory efficiency and reasoning capability when processing long-form text.<br>
-        • Experimental results show that HOMER delivers strong performance with 32K and 64K context inputs, maintaining low perplexity and reduced memory consumption.
+        • HOMER（分层上下文合并算法）是一种旨在解决大语言模型在长上下文处理中局限性的算法。<br>
+        • 该算法通过将长输入分割为较小的块并进行分层合并，在处理长文本时显著提升内存效率与推理能力。<br>
+        • 实验结果表明，HOMER在32K和64K上下文输入中表现出色，保持低困惑度与较低内存消耗。
       </td>
     </tr>
     <tr>
@@ -2320,9 +2320,9 @@ To systematically organize the diverse research and practical resources in the f
     </tr>
     <tr>
         <td colspan="3">
-          • Investigates privacy vulnerabilities in LLM agent memory, specifically the risk of extracting private user-agent interactions stored in long-term memory.<br>
-          • Proposes the Memory EXTRaction Attack (MEXTRA), a black-box attack leveraging a novel prompt design (Locator + Aligner) and automated prompt generation to extract sensitive user queries.<br>
-          • Experiments on representative agents (EHRAgent and RAP) demonstrate significant vulnerability, analyzing key factors like similarity scoring functions and memory configurations that influence leakage.
+          • 研究大语言模型代理记忆中的隐私漏洞，特别关注从长期记忆中提取敏感用户-代理交互信息的风险。<br>
+          • 提出记忆提取攻击（MEXTRA），该黑盒攻击通过创新的提示设计（定位器+对齐器）和自动化提示生成技术，实现敏感用户查询的提取。<br>
+          • 在代表性代理系统（EHRAgent和RAP）上的实验表明存在显著漏洞，通过分析相似性评分函数、内存配置等影响泄露的关键因素，揭示了记忆系统安全性的薄弱环节。
         </td>
     </tr>
 
