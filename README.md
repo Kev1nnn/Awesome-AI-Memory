@@ -2999,6 +2999,17 @@ Summary:
   - Significant Result: 
 ```
 
+## 💬 社区和支持
+
+加入我们的社区，提出问题，分享您的项目，并与其他开发人员联系.
+
+- **GitHub Issues**: 在我们的 <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/issues" target="_blank">GitHub Issues</a> 中报告问题或提出功能需求。  
+- **GitHub Pull Requests**: 通过 <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pulls" target="_blank">Pull Requests</a> 提交代码改进。  
+- **GitHub Discussions**: 在我们的 <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/discussions" target="_blank">GitHub Discussions</a> 中提问或分享想法。
+- **WeChat**: 扫描下方二维码加入我们的讨论组.
+
+<img src="assets/wechat-qr-code.png" alt="QR Code" width="400">
+
 ## 🌟 仓库关注量
 
 <a href="https://star-history.com/#IAAR-Shanghai/Awesome-AI-Memory&Date">

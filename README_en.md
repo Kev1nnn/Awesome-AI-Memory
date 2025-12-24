@@ -3021,6 +3021,17 @@ Summary:
   - Significant Result: 
 ```
 
+## 💬 Community & Support
+
+Join our community to ask questions, share your projects, and connect with other developers.
+
+- **GitHub Issues**: Report bugs or request features in our <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/issues" target="_blank">GitHub Issues</a>.
+- **GitHub Pull Requests**: Contribute code improvements via <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pulls" target="_blank">Pull Requests</a>.
+- **GitHub Discussions**: Participate in our <a href="https://github.com/IAAR-Shanghai/Awesome-AI-Memory/discussions" target="_blank">GitHub Discussions</a> to ask questions or share ideas.
+- **WeChat**: Scan the QR code to join our WeChat group.
+
+<img src="assets/wechat-qr-code.png" alt="QR Code" width="400">
+
 ## 🌟 Star Trends
 
 <a href="https://star-history.com/#IAAR-Shanghai/Awesome-AI-Memory&Date">
