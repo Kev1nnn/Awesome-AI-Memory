@@ -3034,9 +3034,17 @@ Join our community to ask questions, share your projects, and connect with other
   <img src="assets/wechat-qr-code.png" alt="QR Code" width="255">
 </div> -->
 
-<center>
+<!-- <center>
   <img src="assets/wechat-qr-code.png" alt="QR Code" width="255">
-</center>
+</center> -->
+
+<table style="width:100%">
+  <tr>
+    <td align="center">
+      <img src="assets/wechat-qr-code.png" alt="QR Code" width="255">
+    </td>
+  </tr>
+</table>
 
 ## 🌟 Star Trends
 
