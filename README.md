@@ -1,7 +1,7 @@
 # Awesome-AI-Memory
 
 <p align="center">
-    【<a href="README.md">中文</a> | English</a>】
+    【中文 | <a href="README_en.md">English</a>】
 </p>
 
 <div align="center">
