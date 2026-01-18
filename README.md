@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-160-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-175-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-84-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -413,6 +413,217 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
     </tr>
+        <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-15</td>
+      <td style="width: 55%;"><strong>TeleMem: Building Long-Term and Multimodal Memory for Agentic AI</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Knowledge%20Graph-sepia" alt="Knowledge Graph">
+        <img src="https://img.shields.io/badge/Graph--Structured%20Memory-seagreen" alt="Graph-Structured Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.06037">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • TeleMem 引入了统一的长期和多模态记忆框架，通过提取叙事基础信息来维护连贯的用户画像，避免模式驱动的幻觉。<br>
+          • 它采用结构化写入管道进行批处理、检索和整合，显著提升存储和 Token 效率，并集成了具有 ReAct 风格推理的多模态记忆模块用于视频理解。<br>
+          • 在 ZH-4O 基准测试上的实验结果表明，TeleMem 在准确率上比 SOTA Mem0 基线提升 19%，同时减少 43% 的 Token 使用量并将操作速度提升 2.1 倍。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-15</td>
+      <td style="width: 55%;"><strong>Grounding Agent Memory in Contextual Intent</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Contextual%20Memory-cyan" alt="Contextual Memory">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.10702">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • 提出了 STITCH，一种智能体记忆系统，使用"上下文意图"（包含主题范围、事件类型和关键实体类型）来索引轨迹步骤，以消除长周期任务中重复信息的歧义。<br>
+          • 引入了一种检索机制，基于结构意图兼容性而非仅语义相似性来过滤和优先排序记忆片段，有效抑制上下文不兼容的历史信息。<br>
+          • 提出了 CAME-Bench，一个多领域基准测试，旨在评估真实目标导向轨迹中的上下文感知检索能力，STITCH 在该基准上取得了 SOTA 性能。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-14</td>
+      <td style="width: 55%;"><strong>PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Human--AI%20Interaction-firebrick" alt="Human-AI Interaction">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.09636">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 PersonalAlign，一项新任务，要求 GUI 智能体通过利用长期用户记录来对齐隐式用户意图——特别是解析模糊指令和预测用户习惯。<br>
+        • 提出了 AndroidIntent，一个基于 2 万条长期记录构建的基准测试，包含分层标注的用户偏好和习惯，用于评估个性化能力。<br>
+        • 提出了 HIM-Agent（层级意图记忆智能体），利用流式聚合模块和层级过滤器（基于执行和状态）持续更新和组织用户记忆，以提升响应式和主动式性能。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-13</td>
+      <td style="width: 55%;"><strong>AtomMem: Learnable Dynamic Agentic Memory with Atomic Memory Operation</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.08323">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 AtomMem，一种动态记忆框架，将智能体记忆管理重新定义为可学习的序列决策问题，而非静态的手工设计流程。<br>
+        • 将记忆过程解构为原子级 CRUD（创建、读取、更新、删除）操作，并使用强化学习（GRPO）学习任务对齐的策略来自主编排这些操作。<br>
+        • 在长上下文基准测试（HotpotQA、2WikiMultihopQA、Musique）上的实验结果表明，AtomMem 通过动态调整记忆策略以适应特定任务需求，持续优于静态记忆基线。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-13</td>
+      <td style="width: 55%;"><strong>Fine-Mem: Fine-Grained Feedback Alignment for Long-Horizon Memory Management</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+        <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.08435">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • Fine-Mem 是一个统一的强化学习框架，旨在通过将细粒度反馈与记忆操作对齐来优化 LLM 智能体的长周期记忆管理。<br>
+          • 它通过分块级步骤奖励（CSR）解决奖励稀疏问题（通过构建 QA 任务提供即时监督），并通过证据锚定奖励归因（EARA）解决信用分配问题（将全局奖励与特定记忆操作关联）。<br>
+          • 实验结果表明，Fine-Mem 在 Memalpha 和 MemoryAgentBench 等基准测试上持续优于强基线，展现了在不同模型间的优越适应性和泛化能力。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-12</td>
+      <td style="width: 55%;"><strong>MemoBrain: Executive Memory as an Agentic Brain for Reasoning</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.08079">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • MemoBrain 为工具增强型智能体引入了"执行记忆"范式，作为协同驾驶员构建依赖感知记忆并在有限预算下主动管理上下文。<br>
+          • 该框架采用特定的记忆操作——轨迹折叠和选择性刷新——来组织推理进度，保留高显著性的结构骨架同时丢弃临时执行产物。<br>
+          • 在 GAIA、WebWalker 和 BrowseComp-Plus 等基准测试上的实验表明，MemoBrain 通过实现长周期内连贯的目标导向推理，持续优于强基线。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-12</td>
+      <td style="width: 55%;"><strong>Beyond Dialogue Time: Temporal Semantic Memory for Personalized LLM Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+        <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.07468">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • TSM 是一种记忆框架，为点状记忆建模语义时间，并支持持续性记忆的构建与利用。<br>
+          • 它构建语义时间线来组织情景交互，并将其整合为时间感知的持续性记忆（主题和画像），以捕捉长期用户状态。<br>
+          • 在记忆利用过程中，TSM 结合查询的时间意图来检索时间适当的持续性记忆，在 LongMemEval 和 LoCoMo 等基准测试上显著提升了性能。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-10</td>
+      <td style="width: 55%;"><strong>Bi-Mem: Bidirectional Construction of Hierarchical Memory for Personalized LLMs via Inductive-Reflective Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+        <img src="https://img.shields.io/badge/Hierarchical%20Memory-darkgreen" alt="Hierarchical Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.06490">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • Bi-Mem 是一个智能体框架，使用归纳智能体进行自下而上的聚合和反思智能体进行自上而下的校准，双向构建层级记忆（事实、场景、画像），以减少噪声和幻觉。<br>
+          • 它采用关联检索机制，利用扩散激活连接跨粒度的记忆单元，实现上下文场景和特定事实的连贯回忆。<br>
+          • 在 LoCoMo 基准测试上的实证评估表明，Bi-Mem 在长期个性化对话任务中显著优于领先的记忆基线。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-10</td>
+      <td style="width: 55%;"><strong>HiMem: Hierarchical Long-Term Memory for LLM Long-Horizon Agents</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/Hierarchical%20Memory-darkgreen" alt="Hierarchical Memory">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.06377">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • HiMem 是一种为长周期对话设计的层级长期记忆框架，将细粒度的"情景记忆"（通过主题感知分割）与抽象的"笔记记忆"（通过知识提取）相结合，以桥接具体事件和稳定知识。<br>
+          • 它采用冲突感知的"记忆再巩固"机制，利用检索反馈来修订和补充存储的知识，实现记忆随时间的持续自我演化和纠正。<br>
+          • 在长周期基准测试上的评估表明，HiMem 在准确性、一致性和推理方面优于基线，验证了其层级组织和动态更新策略的有效性。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-10</td>
+      <td style="width: 55%;"><strong>Structured Episodic Event Memory</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Episodic%20Memory-cadetblue" alt="Episodic Memory">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+        <img src="https://img.shields.io/badge/Hybrid%20Memory-darkcyan" alt="Hybrid Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.06411">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • SEEM 引入了双层记忆框架，结合用于静态事实的图记忆层和用于叙事进展的情景记忆层，两者都通过来源指针锚定到原始交互段落。<br>
+          • 该系统采用"反向来源扩展"（RPE）机制，在检索过程中从碎片化证据重建连贯的叙事上下文，解决了长期交互中的"分散检索"问题。<br>
+          • 在 LoCoMo 和 LongMemEval 等基准测试上的实验表明，SEEM 在叙事连贯性和逻辑一致性方面显著优于竞争性的记忆增强基线（如 HippoRAG 2）。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-09</td>
+      <td style="width: 55%;"><strong>MemBuilder: Reinforcing LLMs for Long-Term Memory Construction via Attributed Dense Rewards</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Management-darkorange" alt="Memory Management">
+        <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+        <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.05488">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • MemBuilder 是一个强化学习框架，训练 LLM 主动构建和管理多维记忆系统（核心、情景、语义和程序记忆），而非依赖静态提示。<br>
+          • 它引入"归因密集奖励策略优化"（ADRPO）来解决奖励稀疏和信用分配问题，通过合成会话级 QA 提供即时反馈，并基于记忆组件贡献进行梯度加权。<br>
+          • 实验结果表明，使用 MemBuilder 训练的轻量级 4B 模型在 LoCoMo 和 LongMemEval 等长期对话基准测试上超越了 SOTA 闭源模型（包括 Claude 4.5 Sonnet）。
+        </td>
+    </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-01-08</td>
       <td style="width: 55%;"><strong>Beyond Static Summarization: Proactive Memory Extraction for LLM Agents</strong></td>
@@ -489,6 +700,26 @@ To systematically organize the diverse research and practical resources in the f
         • <strong>Topic Loom 与 Trace Weaver</strong>：利用滑动窗口机制（Topic Loom）将连续对话打包成“记忆盒”，并通过 Trace Weaver 将这些盒子编织成跨越不连续时间的长程事件线索。<br>
         • <strong>性能提升</strong>：在 LoCoMo 基准测试中，时间推理任务的 F1 分数比 Mem0 和 A-MEM 提升高达 68%，同时显著降低了 Token 消耗，实现了效率与效果的平衡。<br>
       </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-06</td>
+      <td style="width: 55%;"><strong>HiMeS: Hippocampus-inspired Memory System for Personalized AI Assistants</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+        <img src="https://img.shields.io/badge/Human%20Brain%20Memory-darkcyan" alt="Human Brain Memory">
+        <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+        <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.06152">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • HiMeS 是一种面向 AI 助手的记忆框架，通过整合短期对话压缩与长期用户画像存储来模拟海马体-新皮层交互。<br>
+          • 它利用通过强化学习训练的短期记忆提取器进行主动预检索知识，并使用分区长期记忆网络基于历史用户交互重新排序结果。<br>
+          • 在真实工业数据集上的评估表明，HiMeS 在个性化问答任务中显著优于传统 RAG 基线。
+        </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-01-06</td>
@@ -604,6 +835,27 @@ To systematically organize the diverse research and practical resources in the f
         • <strong>MemRL 框架</strong>：提出了一个基于非参数化强化学习的框架，允许冻结权重的 LLM 智能体通过优化情景记忆来“自我进化”，解决了微调带来的遗忘问题和计算成本。<br>
         • <strong>意图-经验-效用三元组</strong>：引入双阶段检索机制（语义召回 + 价值感知选择）和运行时效用更新规则，利用 Q 值估计来区分高价值策略与语义相似的噪声。<br>
         • <strong>实验表现</strong>：在 HLE、BigCodeBench 和 ALFWorld 等基准测试中显著优于 MemP 和 RAG，证明了在不更新模型权重的情况下，智能体可以通过运行时试错持续提升能力。<br>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-05</td>
+      <td style="width: 55%;"><strong>SimpleMem: Efficient Lifelong Memory for LLM Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Memory%20Compression-chocolate" alt="Memory Compression">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.02553">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了SimpleMem，一种基于语义无损压缩的、专为终身LLM智能体设计的高效记忆框架。<br>
+        • 该系统通过三阶段流水线运行：语义结构化压缩以过滤低熵噪声，递归记忆整合以合成抽象表征，以及自适应查询感知检索以最小化Token使用。<br>
+        • 在LoCoMo基准上的实验表明，与全上下文模型相比，F1分数提高了26.4%，推理Token消耗减少了高达30倍，显著优于Mem0等基线。
       </td>
     </tr>
     <tr>
@@ -2323,6 +2575,46 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-11</td>
+      <td style="width: 55%;"><strong>CloneMem: Benchmarking Long-Term Memory for AI Clones</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-gold" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Personalized%20Memory-darkturquoise" alt="Personalized Memory">
+      <img src="https://img.shields.io/badge/Memory%20Evaluation-indigo" alt="Memory Evaluation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.07023">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        • 提出了 CLONEMEM，一个旨在评估 AI 克隆体长期记忆的基准测试，利用非对话式数字痕迹（如日记、社交媒体、邮件）跨越 1-3 年，而非传统的对话历史。<br>
+        • 提出了一个层级数据构建框架，生成连贯的纵向生活轨迹，捕捉个体经历、情感和观点随时间的演变。<br>
+        • 实验结果表明，现有记忆系统（如 A-Mem 和 Mem0）在该设置下表现不佳，往往不如扁平检索，且由于有损压缩和对叙事模板的依赖而无法准确追踪内部状态变化。
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-01-11</td>
+      <td style="width: 55%;"><strong>RealMem: Benchmarking LLMs in Real-World Memory-Driven Interaction</strong></td>
+      <td style="width: 15%;">
+        <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+        <img src="https://img.shields.io/badge/Dataset-seagreen" alt="Dataset">
+        <img src="https://img.shields.io/badge/Long--Term%20Memory%20Evaluation-darkslateblue" alt="Long-Term Memory Evaluation">
+        <img src="https://img.shields.io/badge/Long--Context%20Understanding-cornflowerblue" alt="Long-Context Understanding">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2601.06966">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge"></a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+          • RealMem 是一个旨在评估 LLM 在"长期项目导向"交互中表现的基准测试，与休闲或任务导向对话基准不同，它专注于不断演变的目标和动态状态。<br>
+          • 该框架采用三阶段合成管道（项目基础、多智能体生成、记忆管理），在 11 个现实场景中创建超过 2000 个跨会话对话。<br>
+          • 评估表明，当前 SOTA 记忆系统在管理长期项目状态、时间推理和主动对齐方面存在困难，揭示了自主智能体能力的关键差距。
+        </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-01-08</td>
       <td style="width: 55%;"><strong>KnowMe-Bench: Benchmarking Person Understanding for Lifelong Digital Companions</strong></td>
       <td style="width: 15%;">
@@ -3323,7 +3615,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | **个性化任务评估**  | [IMPLEXCONV](https://aclanthology.org/2025.emnlp-main.580.pdf), [PERSONAMEM](https://arxiv.org/pdf/2504.14225), [PERSONAMEM-v2](https://www.arxiv.org/pdf/2512.06688), [PersonaBench](https://aclanthology.org/2025.findings-acl.49.pdf), [PersonaFeedback](https://arxiv.org/pdf/2506.12915), [LaMP](https://aclanthology.org/2024.acl-long.399.pdf), [MemDaily](https://arxiv.org/pdf/2409.20163), [MPR](https://arxiv.org/pdf/2508.13250), [KnowMe-Bench](https://arxiv.org/abs/2601.04745)  |
 |  **综合评价**   | [MemoryAgentBench](https://arxiv.org/pdf/2507.05257), [LifelongAgentBench](https://arxiv.org/pdf/2505.11942), [StreamBench](https://arxiv.org/pdf/2406.08747) |
 |  **记忆机制评价**   | [MemBench](https://aclanthology.org/2025.findings-acl.989.pdf),  [Minerva](https://arxiv.org/pdf/2502.03358), [MemoryBench](https://arxiv.org/pdf/2510.17281) |
-|  **长期记忆评估**   | [LOCCO](https://aclanthology.org/2025.findings-acl.1014.pdf), [LONGMEMEVAL](https://arxiv.org/pdf/2410.10813), [LOCOMO](https://aclanthology.org/2024.acl-long.747.pdf), [MADial-Bench](https://arxiv.org/abs/2409.15240), [StoryBench](https://arxiv.org/pdf/2506.13356), [DialSim](https://arxiv.org/pdf/2406.13144), [Mem-Gallery](https://arxiv.org/pdf/2601.03515) |
+|  **长期记忆评估**   | [LOCCO](https://aclanthology.org/2025.findings-acl.1014.pdf), [LONGMEMEVAL](https://arxiv.org/pdf/2410.10813), [LOCOMO](https://aclanthology.org/2024.acl-long.747.pdf), [MADial-Bench](https://arxiv.org/abs/2409.15240), [StoryBench](https://arxiv.org/pdf/2506.13356), [DialSim](https://arxiv.org/pdf/2406.13144), [Mem-Gallery](https://arxiv.org/pdf/2601.03515), [RealMem](https://arxiv.org/pdf/2601.06966), [CloneMem](https://arxiv.org/pdf/2601.07023) |
 |  **长对话推理**   | [PREFEVAL](https://arxiv.org/pdf/2502.09597),  [MiniLongBench](https://aclanthology.org/2025.acl-long.560.pdf)|
 |  **长上下文理解**   | [LongBench V2](https://arxiv.org/pdf/2412.15204), [LongBench](https://arxiv.org/abs/2308.14508), [BABILong](https://arxiv.org/pdf/2406.10149), [HotpotQA](https://aclanthology.org/D18-1259.pdf) |
 |  **长上下文评估** |[SCBENCH](https://arxiv.org/abs/2412.10319), [L-CiteEval](https://arxiv.org/pdf/2410.02115), [GLE](https://aclanthology.org/2024.acl-long.859/), [HOMER](https://arxiv.org/pdf/2404.10308), [RULER](https://arxiv.org/pdf/2404.06654), [MM-Needle](https://aclanthology.org/2025.naacl-long.166.pdf) |
@@ -3374,9 +3666,13 @@ Framework for Experience-Driven Agent Evolution</strong></td>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5"><strong>记忆基本理论</strong></td>
+      <td rowspan="6"><strong>记忆基本理论</strong></td>
       <td>https://www.youtube.com/watch?v=k3FUWWEwgfc</td>
       <td>基于LangGraph的短期记忆</td>
+    </tr>
+    <tr>
+      <td>https://www.youtube.com/watch?v=WsGVXiWzTpI</td>
+      <td>OpenAI: 智能体记忆设计模式</td>
     </tr>
     <tr>
       <td>https://www.youtube.com/watch?v=fsENEq4F55Q</td>
